@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha(){
+
+		document.write("<br>");
+
+	}
+
+	function terreno(frase){
+
+		document.write(frase);
+		pulaLinha();
+
+	}
+	
+	var comprimento = 30;
+	var largura = 10;
+	var valor = 200;
+	var area = (comprimento * largura);
+	var preco = (area * valor);
+
+	terreno("A área do terreno é " + area + "m²")
+	terreno("O preço do terreno é R$ " + preco)
+
+
+</script>
