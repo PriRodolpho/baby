@@ -1,2 +1,2 @@
 # baby
-Lugar que eu guardo os exercícios de fundamentos
+Onde eu guardo os exercícios de fundamentos 😃
