@@ -1,38 +1,31 @@
-Algoritmo "baskara"
+Algoritmo "baskhara"
+
 
 Var
 
-   a, b, c, x1, x2, delta : real
+   a, b, c, delta, X1, X2 : real
 
 Inicio
 
-      escreva("Coeficiente a: ")
+      escreva("Coeficiente a:")
       leia(a)
-      escreva("Coeficiente b: ")
+      escreva("Coeficiente b:")
       leia(b)
-      escreva("Coeficiente c: ")
+      escreva("Coeficiente c:")
       leia(c)
-      
-      delta <- Exp(b, 2) - 4 * a * c
+
+      delta <- Exp(b,2) - (4 * a * c)
+
 
       se (a = 0) ou (delta < 0) entao
-         escreval("Esta equacao n�o possui raizes reais")
+         escreva("Não existem raízes reais")
       senao
-           x1 <- (- b) + (RaizQ(delta))/ (2 * a)
-           x2 <- (- b) - (RaizQ(delta))/ (2 * a)
-      
-           escreval("x1 = ", x1)
-           escreval("x2 = ", x2)
+
+            X1 <- (-b - RaizQ(delta)) / (2 * a)
+            X2 <- (-b + RaizQ(delta)) / (2 * a)
+
+           escreval("X1 = ", X1:6:4)
+           escreval("X2 = ", X2:6:4)
       fimse
 
-      
-
-      //exp(a, 2) + (2*b) + c = 0
-
 Fimalgoritmo
-
-//Coeficiente a: 1
-//Coeficiente b: 0
-//Coeficiente c: -9
-//X1 = 3.0000
-//X2 = -3.0000
