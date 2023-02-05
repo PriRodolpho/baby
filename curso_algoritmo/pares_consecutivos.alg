@@ -2,33 +2,24 @@ Algoritmo "pares_consecutivos"
 
 Var
 
-   a, b, c, d, f, soma : inteiro
+   x, soma : inteiro
 
 Inicio
 
-      escreval("Digite um número inteiro: ")
-      leia(a)
-      
-      se a % 2 <> 0 entao
-         a <- a +1
+   escreval("Digite um número inteiro: ")
+   leia(x)
+
+   enquanto x <> 0 faca
+      se x % 2 <> 0 entao
+         x <- x +1
       fimse
-      
-      enquanto a <> 0 faca
-               b <- a + 2
-               c <- b + 2
-               d <- c + 2
-               f <- d + 2
 
-               soma <- a + b + c + d + f
+      soma <- 5 * x + 20
+      escreval("Soma = ", soma)
 
-               escreval("Soma = ", soma)
+      escreval("Digite um número inteiro: ")
+      leia(x)
 
-               escreval("Digite um número inteiro: ")
-               leia(a)
-               
-               se a% 2 <> 0 entao
-                  a <- a + 1
-               fimse
-      fimenquanto
+   fimenquanto
 
 Fimalgoritmo
