@@ -1,5 +1,5 @@
 Algoritmo "retangulo"
-// Disciplina   : [Linguagem e Lógica de Programação] 
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o] 
 // Professor   : Antonio Carlos Nicolodi 
 
 Var
@@ -8,18 +8,19 @@ Var
 
 Inicio
 
-      escreva("Digite a base: ")
-      leia(base)
-      escreva("Digite a altura: ")
-      leia(altura)
-      
-      area <- base * altura
-      perimetro <- 2 * (base + altura)
-      diagonal <- RaizQ(exp(base, 2)+exp(altura, 2))
-      
-      escreval("A área é: ", area:8:4)
-      escreval("O perímetro é: ", perimetro:8:4)
-      escreval("A diagonal é: ", diagonal:8:4)
+escreval("Base do retÃ¢ngulo: ")
+leia(base)
+escreval("Altura do retÃ¢ngulo: ")
+leia(altura)
+
+area <- base * altura
+perimetro <- 2 * (base + altura)
+diagonal <- raizQ((base^2) + (altura^2))
+
+escreval("Ãrea: ", area:8:4)
+escreval("PerÃ­metro: ", perimetro:8:4)
+escreval("Diagonal: ", diagonal:8:4)
+
 
 
 
