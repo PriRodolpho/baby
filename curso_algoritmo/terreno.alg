@@ -17,7 +17,8 @@ Inicio
       area <- largura * comprimento
       preco <- area * metroQuadrado
       
-      escreval("A área do terreno é: ", area:8:2, " m²")
-      escreval("O preço do terreno é: R$ ", preco:8:2)
+      escreval("A Ã¡rea do terreno Ã©:", area:8:2, " mÂ²")
+      escreval("O preÃ§o do terreno Ã©: R$ ", preco:8:2)
+
 
 Fimalgoritmo
