@@ -1,17 +1,19 @@
 Algoritmo "circulo"
-
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Nélio Alves 
+// Data atual  : 14/09/2025
 Var
 
- area, r : real
+   area, raio: real
 
 Inicio
 
-      escreva("Digite o valor do raio do circulo: ")
-      leia(r)
+      escreval("Digite o valor do raio do circulo: ")
+      leia(raio)
       
-      area <- 3.14159*(exp(r, 2))
+      area <- pi * raio^2
       
-      escreval("O valor da área é ", area:6:3)
+      escreval("Área: ", area:8:3)
+
 
 Fimalgoritmo
-

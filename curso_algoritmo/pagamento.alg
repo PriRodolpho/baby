@@ -1,29 +1,23 @@
 Algoritmo "pagamento"
-
-
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Nélio Alves 
+// Data atual  : 14/09/2025
 Var
 
-   nome : caractere
-   valor, pagamento : real
-   horas : inteiro
-   
+   nome: caractere
+   valor, hora, pagamento: real
+
 Inicio
 
-      escreva("Nome: ")
+      escreval("Nome: ")
       leia(nome)
-      escreva("Valor por hora: ")
+      escreval("Valor por hora: ")
       leia(valor)
-      escreva("Horas trabalhadas: ")
-      leia(horas)
+      escreval("Horas trabalhadas: ")
+      leia(hora)
       
-      pagamento <- valor * horas
+      pagamento <- valor * hora
       
-      escreval("O pagamento para ", nome, " deve ser R$ ", pagamento:8:2)
-
-
+      escreva("O pagamento para ", nome, " deve ser ", pagamento:8:2)
+      
 Fimalgoritmo
-
-//Nome: Joao Silva
-//Valor por hora: 50.00
-//Horas trabalhadas: 60
-//O pagamento para Joao Silva deve ser 3000.00

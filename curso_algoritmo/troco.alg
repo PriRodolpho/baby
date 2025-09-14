@@ -1,26 +1,24 @@
 Algoritmo "troco"
-
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Nélio Alves 
+// Data atual  : 14/09/2025
 Var
 
-   preco, dinheiroRecebido, troco : real
-   quantidade : inteiro
+   preco, quantidade, total, recebido, troco: real
 
 Inicio
 
-      escreva("Qual é o preço unitário do produto?")
+      escreval("Preço unitário do produto: ")
       leia(preco)
-      escreva("Qual é a quantidade comprada?")
+      escreval("Preço unitário do produto: ")
       leia(quantidade)
-      escreva("Qual quantia foi dada?")
-      leia(dinheiroRecebido)
+      escreval("Preço unitário do produto: ")
+      leia(recebido)
       
-      troco <- (dinheiroRecebido - (preco * quantidade))
       
-      escreval("Você recebeu R$ ", troco:5:2, " de troco")
+      total <- preco * quantidade
+      troco <- recebido - total
       
-Fimalgoritmo
+      escreval("TROCO = ", troco:4:2)
 
-//Preço unitário do produto: 8.00
-//Quantidade comprada: 2
-//Dinheiro recebido: 20.00
-//TROCO = 4.00
+Fimalgoritmo

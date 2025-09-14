@@ -1,19 +1,21 @@
 Algoritmo "consumo"
-
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Nélio Alves 
+// Data atual  : 14/09/2025
 Var
 
-   distancia : inteiro
-   gastoCombustivel, consumoMedio : real
+   distancia, combustivel, media: real
+
 
 Inicio
 
-      escreva("Distancia percorrida: ")
+      escreval("Distancia percorrida: ")
       leia(distancia)
-      escreva("Combustível gasto: ")
-      leia(gastoCombustivel)
+      escreval("Combustível gasto: ")
+      leia(combustivel)
       
-      consumoMedio <- distancia / gastoCombustivel
+      media <- distancia / combustivel
       
-      escreval("Consumo medio = ", consumoMedio:6:3)
+      escreva("Consumo medio = ", media:8:3)
       
 Fimalgoritmo
